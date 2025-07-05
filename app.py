@@ -5,6 +5,7 @@ import os
 
 #load_dotenv()
 API_KEY = os.getenv("API_KEY")
+print("API KEY:", API_KEY)  # Debug: Check if API key is loaded
 
 app = Flask(__name__)
 
