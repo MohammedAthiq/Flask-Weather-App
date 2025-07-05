@@ -1,9 +1,9 @@
 from flask import Flask, render_template, request
 import requests
 import os
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 
-load_dotenv()
+#load_dotenv()
 API_KEY = os.getenv("API_KEY")
 
 app = Flask(__name__)
